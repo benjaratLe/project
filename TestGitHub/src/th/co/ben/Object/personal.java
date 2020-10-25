@@ -5,6 +5,8 @@ public class personal {
 	private String lastName;
 	private String idCard;
 	private String mobileNo;
+	private String nickName;		
+	private String age;
 	private String mobileContact;
 	
 	public String getName() {
@@ -36,6 +38,18 @@ public class personal {
 	}
 	public void setMobileContact(String mobileContact) {
 		this.mobileContact = mobileContact;
+	}
+	public String getNickName() {
+		return nickName;
+	}
+	public void setNickName(String nickName) {
+		this.nickName = nickName;
+	}
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
 	}
 
 }
