@@ -5,6 +5,8 @@ public class personal {
 	private String lastName;
 	private String idCard;
 	private String mobileNo;
+	private String nickName;
+	
 	public String getName() {
 		return name;
 	}
@@ -28,5 +30,11 @@ public class personal {
 	}
 	public void setMobileNo(String mobileNo) {
 		this.mobileNo = mobileNo;
+	}
+	public String getNickName() {
+		return nickName;
+	}
+	public void setNickName(String nickName) {
+		this.nickName = nickName;
 	}
 }
